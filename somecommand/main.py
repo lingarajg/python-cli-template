@@ -15,7 +15,7 @@ def helloworld():
     print("hello world")
 
 def main():
-    args = docopt(__doc__, version='some-command 0.0.1')
+    args = docopt(__doc__, version='somecommand 0.0.1')
     if args['<subcommand>'] == 'foo':
         foo()
     elif args['<subcommand>'] == 'bar':
